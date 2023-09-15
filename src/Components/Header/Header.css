@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 10px;
+}
+
+.logo {
+  background: url(/src/assets/icon.png);
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* HIGH RESOLUTION  */
+@media screen and (min-width: 640px) {
+  .header {
+    flex-direction: row;
+  }
+}
