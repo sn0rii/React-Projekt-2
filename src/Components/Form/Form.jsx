@@ -38,24 +38,5 @@ const Form = ({
     </main>
   );
 };
-//     <main>
-//       <div className="container">
-//         <form className="form">
-//           <input type="number" id="input" className="input" step="any" />
-//           <select className="select">
-//             <option value="GBP">GPB</option>
-//             <option value="USD">USD</option>
-//             <option value="EUR">EUR</option>
-//             <option value="CHF">CHF</option>
-//           </select>
 
-//           <button className="btn" id="btn" type="submit">
-//             Przelicz
-//           </button>
-//           <div className="result">TO :</div>
-//         </form>
-//       </div>
-//     </main>
-//   );
-// };
 export default Form;
