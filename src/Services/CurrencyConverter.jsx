@@ -49,8 +49,17 @@ const CurrencyConverter = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    getRates();
+
+  if (!inputValue || parseFloat(inputValue) <= 0) {
+      setResult("Podaj właściwą wartość.");
+      return;
+    }
+
+    setLoading(true);
+
+    // getRates();
   };
+    
 
   return (
     <>
