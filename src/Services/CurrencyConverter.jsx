@@ -57,7 +57,7 @@ const CurrencyConverter = () => {
 
     setLoading(true);
 
-    // getRates();
+    getRates();
   };
     
 
