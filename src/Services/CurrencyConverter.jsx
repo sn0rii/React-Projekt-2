@@ -38,7 +38,6 @@ const CurrencyConverter = () => {
   const calculateResult = (ratesObject) => {
     const selectedRate = ratesObject[selectedCode];
     const parsedInputValue = parseFloat(inputValue);
-    console.log(selectedRate);
     if (selectedRate && !isNaN(parsedInputValue) && parsedInputValue > 0) {
       const convertedValue = parsedInputValue * selectedRate.bid;
       setResult(`TO: ${convertedValue.toFixed(2)} PLN`);
