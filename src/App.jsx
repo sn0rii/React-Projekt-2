@@ -1,6 +1,6 @@
 import "./App.css";
+import CurrencyConverter from "./Components/CurrencyConventer/CurrencyConverter";
 import Header from "./Components/Header/Header";
-import CurrencyConverter from "./Services/CurrencyConverter";
 
 const App = () => {
   return (
